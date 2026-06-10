@@ -1,0 +1,47 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Пользователь\\Desktop\\bots\\mwsht_mev_bnb\\hardhat\\contracts\\FlashArbitrageV2.sol": {
+      "lastModificationDate": 1773649750851,
+      "contentHash": "d00ad1cc31d22a58998ffb782b8cbb85",
+      "sourceName": "contracts/FlashArbitrageV2.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "FlashArbitrageV2",
+        "IERC20",
+        "IFlashLoanSimpleReceiver",
+        "IPancakeCallee",
+        "IPoolAAVE",
+        "IUniswapV2Pair",
+        "IUniswapV2Router"
+      ]
+    }
+  }
+}

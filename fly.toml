@@ -1,0 +1,12 @@
+app = "mwsht-mev-bot"
+primary_region = "sin"
+
+[build]
+
+[env]
+  LOG_FILE = "/dev/stdout"
+
+[[vm]]
+  memory   = "256mb"
+  cpu_kind = "shared"
+  cpus     = 1

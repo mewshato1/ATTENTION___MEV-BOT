@@ -1,0 +1,13 @@
+{
+  "contract": "FlashArbitrage",
+  "network": "hardhat",
+  "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+  "aavePool": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "deployedAt": "2026-03-11T22:19:42.095Z",
+  "routers": {
+    "PancakeSwap_V2": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "BiSwap": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+  },
+  "tx": "0x9ddd2b6383c7a734e1f2769ab55744559d86e1b440c248cca2a1bf3cbbe984fc"
+}

@@ -1,0 +1,10 @@
+hardhat/
+ui/
+docs/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+bot/mev_bot.log
+bot/pair_addresses.json
+.git/
+*.bat

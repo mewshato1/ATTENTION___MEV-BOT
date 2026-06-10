@@ -1,0 +1,29 @@
+[Unit]
+Description=MEV Bot — BNB Chain
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/mwsht_mev_bnb/bot
+ExecStart=/root/mwsht_mev_bnb/venv/bin/python main.py --triangle
+Restart=always
+RestartSec=10
+
+# Высокий приоритет процесса (-20 макс, 0 дефолт, 19 мин)
+Nice=-10
+
+# Лимиты
+LimitNOFILE=65536
+LimitNPROC=4096
+
+# Переменные окружения
+EnvironmentFile=/root/mwsht_mev_bnb/.env
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=mev-bot
+
+[Install]
+WantedBy=multi-user.target

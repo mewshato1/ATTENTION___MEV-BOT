@@ -1,0 +1,24 @@
+{
+  "name": "mev-bot-hardhat",
+  "version": "1.0.0",
+  "description": "Hardhat tests for MevArbitrage contract",
+  "scripts": {
+    "compile":    "hardhat compile",
+    "test":       "hardhat test",
+    "test:gas":   "REPORT_GAS=true hardhat test",
+    "test:fork":  "hardhat test --network hardhat",
+    "coverage":   "hardhat coverage",
+    "deploy:test": "hardhat run scripts/deploy.js --network bsc_testnet",
+    "deploy:main": "hardhat run scripts/deploy.js --network bsc_mainnet",
+    "verify":     "hardhat verify --network bsc_mainnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "hardhat": "^2.22.0",
+    "chai": "^4.3.10",
+    "ethers": "^6.0.0",
+    "dotenv": "^16.0.0",
+    "hardhat-gas-reporter": "^1.0.9"
+  }
+}
